@@ -1,0 +1,33 @@
+.fit-cover^:hover {
+  object-fit: cover;
+}
+
+.fit-cover:hover {
+  transform: scale(1.05);
+}
+
+.fit-cover {
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.logo-hover:hover {
+  transform: scale(1.1);
+}
+
+.logo-hover {
+  transition: transform 0.3s;
+}
+
+.nav-border {
+  border-bottom: 1px solid white;
+}
+
+.link-hover:hover {
+  border-bottom: 1px solid white;
+}
+
+.link-hover {
+  transition: transform 0.3s;
+}
+
